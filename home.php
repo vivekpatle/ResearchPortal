@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<!--Google Translate-->
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<!--Translate finish-->
-
     <title>Home</title>
 
-	<!-- Favicon-->
-            <link rel="shortcut icon" href="images/duicon.ico" type="image/x-icon" sizes="100x100" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="images/duicon.ico" type="image/x-icon" sizes="100x100" />
 
-	<!--Bootstrap 3.3.7-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Bootstrap 3.3.7-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <!-- Other style files -->
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
-	<!--Font Awesome-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-	
-	<link rel="stylesheet" type="text/css" href="css/navbar.css">
-
-	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
 
     <link rel="stylesheet" type="text/css" href="css/footer_wrap.css">
 
-    <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link rel="stylesheet" type="text/css" href="">
 
-	</style>
 
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -48,104 +37,34 @@ function googleTranslateElementInit() {
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">
-                    <img src="images/navbar/ducolorlogonew.png" alt="logo" height="60px" width="60px">
+                    <img src="images/navbar/ducolorlogonew.png" alt="logo" height="60px" width="60px" >
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="home.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-home" aria-hidden="true"></i>  Home
-</a>
+                        <a href="home.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-home" aria-hidden="true"></i> &nbsp Home</a>
                     </li>
                     <li>
-                        <a href="departments.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-building" aria-hidden="true"></i>  Department 
-</a>
+                        <a href="departments.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-building" aria-hidden="true"></i>&nbsp Department </a>
                     </li>
                     <li>
-                        <a href="research_profile.php" id="jake" class="hvr-underline-from-center"> <i class="fa fa-book" aria-hidden="true"></i> Research Profile
-</a>
-                <li>
-                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="jake"> Signup/Login </button>
-                 
-                </li>
+                        <a href="research_profile.php" id="jake" class="hvr-underline-from-center"> <i class="fa fa-book" aria-hidden="true"></i>&nbsp Research Profile
+                        </a>
+                    <li>
+                           &nbsp &nbsp <button class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="jake"> Login </button>
+
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
 
         </div>
         <!-- /.container -->
-	</nav>
-
-<!---Login Popup-->
- <form action = "login.php" method = "post">
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title" id="myModalLabel" style="font-family: 'Slabo 27px', serif; font-size: 1.5em; font-style: bold;"> <i class="fa fa-sign-in" aria-hidden="true"></i>
-  Log in </h4>
-            </div> <!-- /.modal-header -->
-
-            <div class="modal-body">
-                <form role="form">
-                    <div class="form-group">
-                                <label class="radio-inline">
-                <input type="radio" name="genre" id="inlineCheckbox1" value="student"  />
-                Student
-            </label>
-            <label class="radio-inline">
-                <input type="radio" name="genre" id="inlineCheckbox2" value="teacher" />
-                Faculty
-            </label>
-            <br>
-            <br>
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="uLogin" name="username" placeholder="Enrollment Number">
-                            <label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
-                        </div>
-                    </div> <!-- /.form-group -->
-
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input type="password" class="form-control" id="uPassword" name="password" placeholder="Password">
-                            <label for="uPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
-							 
-
-
-
-	
-	
-	</p>
-                        </div> <!-- /.input-group -->
-                    </div> <!-- /.form-group -->
-
-
-                </form>
-
-            </div> <!-- /.modal-body -->
-
-            <div class="modal-footer">
-                <button class="form-control btn-primary btn-lg btn-block" id="jake">Submit</button>
-                <br>
-                <a href="signup.php">New user? Register Here</a>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100" style="width: 0%;">
-                        <span class="sr-only">progress</span>
-                    </div>
-                </div>
-            </div> <!-- /.modal-footer -->
-
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-</form>
-
-
+    </nav>
 <!--Carousel-->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -184,43 +103,6 @@ function googleTranslateElementInit() {
   </a>
 </div>
 <!--.carousel-->
-
-
-
-    <div style="background-color:#911F27; padding:30px">
-
-        <div>
-            <h1 style="color: white; text-align: center;font-family: 'Playfair Display', serif;margin-bottom: 20px; font-size:50px;">Recent Research</h1>
-        </div>
-
-        <div class="container">
-                <div class="well well-sm">
-                        <h4 id="jake" style="color:#07617D; font-style: bold;">Nobel Laureate Takaaki Kajita delivers lecture on Neutrino research</h4>
-                        <hr class="my-2">
-                        <p>Nobel Laureate in Physics - 2015 visited the Department of Physics and Astrophysics and presented a public lecture at Conference Centre, University of Delhi on Monday. Kajita's work is on atmospheric neutrinos and he has written few papers on India-based Neutrino...</p>
-                        <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Read More...</a>
-                        </p>
-                </div>
-                <div class="well well-sm">
-                        <h4 id="jake" style="color:#07617D; font-style: bold;"">Israel emerging as new hub of int’l education for Indian students</h4>
-                        <hr class="my-2">
-                        <p>With Israeli President Reuven Rivlin visiting India on Monday, promoting education ties between the two countries will be one of the top agendas of discussion. Around fifteen MoUs are going to be signed between Indian and Israeli universities in the field of research and promoting exchange of faculty between the two countries...</p>
-                        <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Read More...</a>
-                        </p>
-                </div>
-                <div class="well well-sm">
-                        <h4 id="jake" style="color:#07617D; font-style: bold;"">Denver Law Professor Receives Grant To Research Affordable Care Act</h4>
-                        <hr class="my-2">
-                        <p>The Affordable Care Act (ACA) is a term that’s been volleyed between the presidential candidates frequently in the last several weeks. Healthcare will certainly be on Colorado voters’ minds as they consider Amendment 69, which would create a single-payer healthcare system for the state...</p>
-                        <p class="lead">
-                            <a class="btn btn-primary btn-lg" href="#" role="button">Read More...</a>
-                        </p>
-                </div>
-                </div>
-    </div>
-
 
 <!--Social Media-->
 
@@ -271,7 +153,6 @@ function googleTranslateElementInit() {
     </div>
 
     <!--.Social Media-->
-
 <div id="footerwrap">
         <div class="container">
             <div class="row">
@@ -311,24 +192,17 @@ function googleTranslateElementInit() {
 $(document).ready(function(){
     $('.modal-footer button').click(function(){
         var button = $(this);
-
         if ( button.attr("data-dismiss") != "modal" ){
             var inputs = $('form input');
             var title = $('.modal-title');
             var progress = $('.progress');
             var progressBar = $('.progress-bar');
-
             inputs.attr("disabled", "disabled");
-
             button.hide();
-
             progress.show();
-
             progressBar.animate({width : "100%"}, 100);
-
             progress.delay(1000)
                     .fadeOut(600);
-
             button.text("Close")
                     .removeClass("btn-primary")
                     .addClass("btn-success")
@@ -340,19 +214,14 @@ $(document).ready(function(){
                     });
         }
     });
-
     $('#myModal').on('hidden.bs.modal', function (e) {
         var inputs = $('form input');
         var title = $('.modal-title');
         var progressBar = $('.progress-bar');
         var button = $('.modal-footer button');
-
         inputs.removeAttr("disabled");
-
         title.text("Log in");
-
         progressBar.css({ "width" : "0%" });
-
         button.removeClass("btn-success")
                 .addClass("btn-primary")
                 .text("Ok")
@@ -366,7 +235,9 @@ $(document).ready(function(){
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>	
+    <script src="js/bootstrap.min.js"></script> 
 
 </body>
 </html>
+
+
