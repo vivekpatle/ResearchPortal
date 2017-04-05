@@ -2,17 +2,17 @@
 <html>
 <head>
 	<title>Departments</title>
-<div id="google_translate_element"></div><script type="text/javascript">
+<!-- <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 	<!-- Favicon-->
         <link rel="shortcut icon" href="images/duicon.ico" type="image/x-icon" sizes="100x100" />
 
 	<!--Bootstrap 3.3.7-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
 
 	<!--Font Awesome-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -48,16 +48,13 @@ function googleTranslateElementInit() {
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="home.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-home" aria-hidden="true"></i>  Home
-</a>
+                        <a href="home.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-home" aria-hidden="true"></i>&nbsp Home</a>
                     </li>
                     <li>
-                        <a href="departments.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-building" aria-hidden="true"></i>  Department 
-</a>
+                        <a href="departments.php" id="jake" class="hvr-underline-from-center"><i class="fa fa-building" aria-hidden="true"></i>&nbsp Department </a>
                     </li>
                     <li>
-                        <a href="research_profile.php" id="jake" class="hvr-underline-from-center"> <i class="fa fa-book" aria-hidden="true"></i> Research Profile
-</a>
+                        <a href="research_profile.php" id="jake" class="hvr-underline-from-center"> <i class="fa fa-book" aria-hidden="true"></i>&nbsp Research Profile</a>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -65,7 +62,7 @@ function googleTranslateElementInit() {
         <!-- /.container -->
 	</nav>
                                     <!--Sidebar-->
-<nav class="navbar navbar-inverse sidebar sidebar-fixed" role="navigation">
+<nav class="navbar navbar-inverse sidebar sidebar-fixed" role="navigation" style = "position: fixed;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -89,7 +86,9 @@ function googleTranslateElementInit() {
                 <li id="jake"><a href="#">Commerce<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-education"></span></a></li>
                 <li id="jake"><a href="#">Economics<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-education"></span></a></li>
                 <li id="jake"><a href="#">Physics<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-education"></span></a></li>
-
+                <li id="jake"><a href="#">Arts<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-education"></span></a></li>
+                <li id="jake"><a href="#">Laws<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-education"></span></a></li>
+                <li id="jake"><a href="#">Science<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-education"></span></a></li>
                 
             </ul>
         </div>
@@ -97,7 +96,7 @@ function googleTranslateElementInit() {
 </nav>
 
 
-<div class="main">
+<div class="main" style="overflow:hidden">
 
     <div class="well well-lg">
     <h1 style="font-family: 'Slabo 27px';"><strong>Faculties and Departments</strong></h1>
