@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-    <title>Research</title>
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-
-
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Favicon-->
-        <link rel="shortcut icon" href="images/duicon.ico" type="image/x-icon" sizes="100x100" />
+    <link rel="shortcut icon" href="images/duicon.ico" type="image/x-icon" sizes="100x100" />
 
     <!--Bootstrap 3.3.7-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -21,19 +14,19 @@ function googleTranslateElementInit() {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    
+
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
 
     <link rel="stylesheet" type="text/css" href="css/carousel.css">
 
-     <link rel="stylesheet" type="text/css" href="css/signup.css">
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
 
-     <link rel="stylesheet" type="text/css" href="css/footer_wrap.css">
+    <link rel="stylesheet" type="text/css" href="css/footer_wrap.css">
 
 
- <link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
 
-<style>
+    <style>
         .spyy {
             position: relative;
         }
@@ -44,7 +37,7 @@ function googleTranslateElementInit() {
             font-size: 17px;
         }
         
- #section2 {
+        #section2 {
             margin-bottom: 50px;
             font-family: 'Prociono', serif;
             font-size: 17px;
@@ -63,6 +56,7 @@ function googleTranslateElementInit() {
         }
         
         ul.nav-pills {
+            
             position: fixed;
         }
         
@@ -71,20 +65,12 @@ function googleTranslateElementInit() {
             top: auto;
         }
         
-        @media screen and (max-width: 810px) {
-            #section1,
-            #section2,
-            #section3,
-            #section41,
-            #section42 {
-                margin-left: 150px;
-            }
-        }
-    </style>
+           </style>
 
 </head>
 <br>
 <br>
+
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -114,28 +100,21 @@ function googleTranslateElementInit() {
                     </li>
                     <li>
                         <a href="research_profile.php" id="jake" class="hvr-underline-from-center"> <i class="fa fa-book" aria-hidden="true"></i> Research Profile
-</a>
-              
+                        </a>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <section class="spyy" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
 
             <div class="row">
-                <div class="col col-lg-2" id="myScrollspy">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li id="jake"><a href="#section1">Publication Profile</a></li>
-                        <li id="jake"><a href="#section2">Recent years</a></li>
-                        <li id="jake"><a href="#section3">Incubation Centers</a></li>
-                        <li id="jake"><a href="#section4">UGC Grants</a></li>
-
-                    </ul>
-                </div>
+                
+                <div class="col-lg-2"></div>
                 <div class="col-lg-8">
                     <div id="section1">
                         <h2><b>Number of total Publications from University of Delhi 2010- 2015</b></h2>
@@ -179,9 +158,10 @@ function googleTranslateElementInit() {
                             </table>
                         </div>
                         <div>
-                            <img class="img img-responsive"  src="images/researchpro/1.png" alt="">
+                            <img class="img img-responsive" src="images/researchpro/1.png" alt="">
                         </div>
                     </div>
+                    <hr>
                     <div id="section2">
                         <h2><b>Representation of type and subject area of publications of University of Delhi in past five years</b></h2>
 
@@ -190,11 +170,12 @@ function googleTranslateElementInit() {
                             <img class="img img-responsive" src="images/researchpro/2.png" alt="">
                         </div>
                         <br>
-                        <hr>
+                        
                         <div>
                             <img class="img img-responsive" src="images/researchpro/3.png" alt="">
                         </div>
                     </div>
+                    <hr>
                     <div id="section3">
                         <h2><b>Incubation Centers</b></h2>
                         <p>Incubation Centres are being set up in the University of Delhi with a futuristic vision that the skills developed by the students while studying and the new ideas that they come up with during the process can be practically incubated into a startup. With this vision, the following steps have been taken:</p>
@@ -222,6 +203,7 @@ function googleTranslateElementInit() {
                             </li>
                         </ul>
                     </div>
+                    <hr>
                     <div id="section4">
                         <h2><b>UGC Grants</b></h2>
                         <p>The University Grants Commission has conveyed its approval of the tentative allocation of Rs. 300.00 crore (Rupees Three Hundred crores) to the University of Delhi for the XII Plan period (2012- 17) including Merged Scheme and Non-NET Fellowship for M.Phil./Ph.D. scholars.
@@ -253,10 +235,12 @@ function googleTranslateElementInit() {
                     </div>
 
                 </div>
+                <div class="col-lg-2"></div>
             </div>
 
         </section>
     </div>
+
     <div id="footerwrap">
         <div class="container">
             <div class="row">
@@ -285,7 +269,7 @@ function googleTranslateElementInit() {
                         <a href="feedback.php">Feedback</a>
                         <br>
                         <a href="contact.php">Contact</a>
-                        </p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -293,11 +277,12 @@ function googleTranslateElementInit() {
 
 
 
-<!-- jQuery -->
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
